@@ -6,6 +6,9 @@ module.exports = {
   //São arquivos que terão estilização do Tailwind
   theme: {
     extend: {
+      backgroundImage: {
+        blur: "url(/src/assets/blur-background.png)",
+      },
       fontFamily: {
         sans: "Roboto, sans-serif",
       },
